@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir - Lauhul Ridwan</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran</h1>
+    <form action="">
+    Nama
+    <input type="text" placeholder="ketikkan namamu" name="nama-user"><br>
+    Kota lahir
+    <input type="text" placeholder="ketikkan kota lahirmu" name="kota_lahir" list="kota_lahir"><br>
+    <datalist id="kota_lahir">
+        <option value="Semarang">Semarang</option>
+        <option value="Jakarta">Jakarta</option>
+        <option value="Unagaran">Ungaran</option>
+        <option value="Demak">Demak</option>
+    </datalist>
+    Tanggal lahir
+    <input type="date" name="ttl"><br>
+    Gender
+    <input type="radio" value="pria" >Pria
+    <input type="radio" value="wanita">Wanita<br>
+    Agama
+    <select name="agama">
+        <option value="Islam">Islam</option>
+        <option value="Katholik">Katholik</option>
+        <option value="Kristen">Kristen</option>
+        <option value="Hindu">Hindu</option>
+        <option value="Buddha">Buddha</option>
+        <option value="Konghuccu">Konghuccu</option>
+    </select><br>
+    Alamat
+    <textarea name="alamat" cols="30" rows="10"></textarea><br>
+    Hobi <br>
+    <input type="checkbox" value="menggambar" name="hobi">menggambar <br>
+    <input type="checkbox" value="belajar" name="hobi">belajar <br>
+    <input type="checkbox" value="membaca" name="hobi">membaca <br>
+    <input type="reset" name="reset" value="Clear">
+    <input type="submit" name="submit" value="Send">
+</form>
+<a href="index.html">Pengen pulangg</a>
+</body>
+</html>
